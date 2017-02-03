@@ -1,3 +1,42 @@
+# README #
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+### What is this repository for? ###
+
+* Matching Bigs and Littles according to the rules in the AX Constitution
+* Last Edited 1/27/2016
+
+### How do I get set up? ###
+
+* First clone this repository 
+ 
+```
+#!command line
+
+git clone https://kmoden@bitbucket.org/kmoden/alphachimatchingalgorithm.git
+
+```
+
+* To run, first make sure you are in the AX directory
+* Then run this command, using filenames of the big and little preferences spreadsheets in csv format
+
+```
+#!command line
+
+./match /Filepath/ExampleBigSheet.csv /Filepath/ExampleLittleSheet.csv
+
+```
+
+### Who do I talk to? ###
+
+* Repo owner is Kylie Moden - kyliemoden@gmail.com
+
+
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/kjm1425/AlphaChiLambdaMatchingSystem/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
@@ -26,12 +65,3 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kjm1425/AlphaChiLambdaMatchingSystem/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
