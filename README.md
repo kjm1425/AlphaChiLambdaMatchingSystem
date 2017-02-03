@@ -3,7 +3,6 @@
 ## What is this repository for? ##
 
 This is where the algorithm lives for matching bigs and littles according to the rules in the AX Constitution. This website outlines the steps needed to download the neccessary code and run the algorithm. Original creator of the algorithm is Kylie Moden, and active AX members will maintain this repository. 
-* 
 
 # How do I get set up? 
 
@@ -72,11 +71,7 @@ There are an example Bigs and Littles csv sheets in the repository, so to test t
 ./match Bigs.csv Littles.csv
 
 ```
-After running this command, you should get the following output. The result is all of the matches with sections so that you can follow the process of the algorithm. During the "First Matches" step, all elligible Bigs and Littles are matched with their first pairing. As per the constitution, the algorithm bases this off of the littles preferences first. As you can see in this example, there are multiple girls not matched. This is to demonstrate that the algorithm handles outliers. Here Emma is not matched as she is a restricted big, meaning she has already taken a little previously and thus must only get a little after everyone else is matched with their first. Also in this example, Suzie is not preferred by any little and is thus not matched. The littles Destiny and Kylie are also currently unmatched as all possible first matches have been made.
-
-Next in the "Matches of Restricted" section, any restricted bigs will be matched. In this case, Emma is matched with Destiny. However at the very bottom of the printout we see a note that there was a "FORCE MATCH of Destiny". This occurs when the littles preferences cannot be met so the algorithm looks to see if there is a big prefferring that little. This is super rare, however as it is a force match it is listed in case Recruitment, O-team, and the presidents may want to reverse that decison. Furthermore in the case of Suzie, she does not get a force match as neither Kylie or Destiny were one of her preferences. Suzie's case is even more rare, however if it happens there will be a printout at the very bottom of any unmatched bigs or littles. 
-
-In the following section "First Matches of Twins" occurs directly followed by "Matches of Restricted Twins". These operate the same way as the inital matches but only with those Bigs who marked themselves as taking twins. In this last section the final matches have been made and any remaining issues will be at the bottom. 
+After running this command, you should get the following output. The result is all of the matches with sections so that you can follow the process of the algorithm. 
 
 ```
 
@@ -152,6 +147,12 @@ Unmatched Bigs: Suzie Emma
 
 ***** FORCE MATCH of Destiny *****
 ```
+
+During the "First Matches" step, all elligible Bigs and Littles are matched with their first pairing. As per the constitution, the algorithm bases this off of the littles preferences first. As you can see in this example, there are multiple girls not matched. This is to demonstrate that the algorithm handles outliers. Here Emma is not matched as she is a restricted big, meaning she has already taken a little previously and thus must only get a little after everyone else is matched with their first. Also in this example, Suzie is not preferred by any little and is thus not matched. The littles Destiny and Kylie are also currently unmatched as all possible first matches have been made.
+
+Next in the "Matches of Restricted" section, any restricted bigs will be matched. In this case, Emma is matched with Destiny. However at the very bottom of the printout we see a note that there was a "FORCE MATCH of Destiny". This occurs when the littles preferences cannot be met so the algorithm looks to see if there is a big prefferring that little. This is super rare, however as it is a force match it is listed in case Recruitment, O-team, and the presidents may want to reverse that decison. Furthermore in the case of Suzie, she does not get a force match as neither Kylie or Destiny were one of her preferences. Suzie's case is even more rare, however if it happens there will be a printout at the very bottom of any unmatched bigs or littles. 
+
+In the following section "First Matches of Twins" occurs directly followed by "Matches of Restricted Twins". These operate the same way as the inital matches but only with those Bigs who marked themselves as taking twins. In this last section the final matches have been made and any remaining issues will be at the bottom. 
 
 ### Who do I talk to if I have problems? ###
 
