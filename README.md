@@ -6,7 +6,7 @@ This is where the algorithm lives for matching bigs and littles according to the
 
 # How do I get set up? 
 
-## First clone the AlphaChiLambdaMatchingSystem repository 
+## First, clone the AlphaChiLambdaMatchingSystem repository 
  
 This simply means you need to enter the command below into a terminal. On Macs and Windows, you simply use the Terminal application. The path to this application if you have trouble finding it, on Mac the path should be Applications -> Utilities -> Terminal and on Windows, Applications -> Accessories -> Terminal.
 
@@ -61,7 +61,7 @@ Moving forward, the Littles form/sheet referes to the ones the incoming PC will 
 
 It is important to emphasize that all spellings must match exactly of the names of the bigs and littles. Any errors here will cause the algorithm to not work properly. Furthermore ensure that you create the forms/sheets exactly as presented here. Any extra columns or extraneous information will mess up the algorithm. 
 
-## Now Run the Algorithm
+## Now, Run the Algorithm
 
 To do all the matching computations, run the command below using the filenames of the big and little preferences spreadsheets in csv format as described in the previous section. It is easiest to just add the Bigs and Littles sheets to the AlphaChiLambdaMatchingSystem folder yourself using the drag and drop systems on your computer, however if you are verse with computers you can simply enter the entire filepath as shown below. 
 
@@ -156,7 +156,7 @@ Next in the "Matches of Restricted" section, any restricted bigs will be matched
 
 In the following section "First Matches of Twins" occurs directly followed by "Matches of Restricted Twins". These operate the same way as the inital matches but only with those Bigs who marked themselves as taking twins. In this last section the final matches have been made and any remaining issues will be at the bottom. 
 
-### Who do I talk to if I have problems? ###
+## Who do I talk to if I have problems? ##
 
 Repo creator is Kylie Moden - kyliemoden@gmail.com
 
