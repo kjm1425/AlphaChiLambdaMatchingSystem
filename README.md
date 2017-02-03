@@ -20,13 +20,17 @@ Now you have downloaded all the neccessary code.
 This sounds complicated but, once again, all you have to do is enter a few simple commands into the terminal. 
 
 First we need to change directories to be inside the folder where all the code is. To do this, enter the command below.
+
 ```
 cd AlphaChiLambdaMatchingSystem
 ```
+
 Next we need to run the makefile to set up everything for the algorithm to run. Simply run this make command below.
+
 ```
 make 
 ```
+
 You should get this output after running the make command. 
 
 ```
@@ -63,18 +67,16 @@ To do all the matching computations, run the command below using the filenames o
 
 ```
 ./match /YourFilepath/NameOfYourBigsSheet.csv /YourFilepath/NameOfYourLittlesSheet.csv
-
 ```
+
 There are an example Bigs and Littles csv sheets in the repository, so to test the system and see an example of the algorithm in action, run the following command. Note how there is no need for a filepath as these sheets are in the AlphaChiLambdaMatchingSystem folder. 
 
 ```
 ./match Bigs.csv Littles.csv
-
 ```
 After running this command, you should get the following output. The result is all of the matches with sections so that you can follow the process of the algorithm. 
 
 ```
-
 ************************************************
 ****************  First Matches  ***************
 
